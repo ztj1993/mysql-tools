@@ -26,3 +26,10 @@ python main.py adduser localhost testing
 python main.py passwd localhost testing 123456
 python main.py --host=localhost create database testing_news
 ```
+
+## 环境变量
+- MYSQL_HOST="localhost"
+- MYSQL_PORT="3306"
+- MYSQL_USER="root"
+- MYSQL_PASSWORD=""
+- MYSQL_CHARSET="utf8mb4"
